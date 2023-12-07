@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Archive the scripts
+Fabric script
 """
 
 from datetime import datetime
@@ -8,7 +8,7 @@ from fabric.api import local
 from os.path import isdir
 
 
-def archive_funct():
+def funct_pack():
     """tgz archive"""
     try:
         date = datetime.now().strftime("%Y%m%d%H%M%S")
