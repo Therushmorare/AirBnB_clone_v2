@@ -8,7 +8,7 @@ from fabric.api import local
 from os.path import isdir
 
 
-def funct_pack():
+def do_pack():
     """tgz archive"""
     try:
         date = datetime.now().strftime("%Y%m%d%H%M%S")
